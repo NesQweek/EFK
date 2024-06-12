@@ -1,0 +1,19 @@
+{
+  "cluster": [
+    "manage_ilm",
+    "manage_index_templates",
+    "manage_ingest_pipelines",
+    "monitor" 
+  ],
+  "indices": [
+    {
+      "names": [
+        "filebeat-*"
+      ],
+      "privileges": [
+        "create_doc",
+        "manage"
+      ]
+    }
+  ]
+}
